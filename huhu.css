@@ -1,0 +1,128 @@
+body{
+    background-image: linear-gradient(to right, #42b7a7, #7cd287);
+    border-right: solid 20px #40b6a8;
+    margin: 0%;
+    border-radius: 6px;
+    display: flex;
+    padding-left: 300px;
+    padding-top: 80px;
+    max-width: 1440px;
+}
+.container{
+    background-color: white;
+    width: 640px;
+    height: 450px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .Menubar{
+    display: flex;
+    flex-direction: column;
+    background-color: #7ed386;
+    justify-content: space-around;
+    height: 510px;
+    width: 100px;
+    align-items: center;
+    position: absolute;
+    top: -30px;
+}
+.container .Menubar img{
+    filter: invert(86%) sepia(100%) saturate(15%) hue-rotate(228deg) brightness(106%) contrast(100%);
+    width: 30px;
+    height: 30px;
+}
+.container .Menubar img:hover{
+    filter: invert(68%) sepia(11%) saturate(2179%) hue-rotate(124deg) brightness(91%) contrast(82%);
+}
+
+.container .form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
+}
+.container .form .title{
+    color: #3dbb3d;
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 430px;
+    top: 20px;
+}
+.container .form .subtitle{
+    color: #7ed386;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0px;
+    margin-bottom: 5px;
+}
+.container .form .fullname{
+    width: 400px;
+    position: relative;
+}
+.container .form .email{
+    width: 400px;
+    position: relative;
+}
+.container .form .password{
+    width: 400px;
+    position: relative;
+}
+.container .form .tag{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+.container .form input{
+    border-style: hidden;
+}
+::placeholder{
+    font-size: 14px;
+}
+.container .form .update{
+    background-color: gainsboro;
+    color: #7ed386;
+    border: none;
+    position: absolute;
+    right: 0px;
+}
+.container .form hr{
+    background-color: #c0e9ca;
+    color: #c0e9ca;
+    border: none;
+    height: 2px;
+    margin-top: 5px;
+}
+.container .money{
+    width: 40px;
+    height: 80px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    color: white;
+    background-color:#7ed386;
+    border: none;
+    font-size: 16px;
+    padding: 10px 10px;
+    position: absolute;
+    right: 0px;
+    bottom: 100px;
+}
+.container .money:hover{
+  transform:  translateX(-50%) translateY(-50%) rotate(270deg);
+  background-color: #40b6a8;
+  transition-delay: 0.05s;
+}
+p{
+    align-self: flex-end;
+    padding-bottom: 15px;
+    padding-left: 120px;
+    font-size: 14px;
+    color: #486641;
+}
